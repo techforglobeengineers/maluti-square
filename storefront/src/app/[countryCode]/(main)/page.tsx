@@ -8,9 +8,9 @@ import { Suspense } from "react"
 export const dynamicParams = true
 
 export const metadata: Metadata = {
-  title: "Medusa Next.js Starter Template",
+  title: "Maluti-Square",
   description:
-    "A performant frontend ecommerce starter template with Next.js 14 and Medusa.",
+    "The best ecommerce platform for your business. Maluti-Square is a modern, fast, and secure ecommerce platform that is easy to use.",
 }
 
 export async function generateStaticParams() {
