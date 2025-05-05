@@ -1,9 +1,10 @@
 "use client"
 
-import { Github } from "@medusajs/icons"
+import { ShoppingBag } from "@medusajs/icons"
 import { Heading } from "@medusajs/ui"
 import Button from "@/modules/common/components/button"
 import Image from "next/image"
+import Link from "next/link"
 
 const Hero = () => {
   return (
@@ -32,15 +33,12 @@ const Hero = () => {
             See our widest selection of electronics
           </p>
         </span>
-        <a
-          href="https://github.com/medusajs/nextjs-starter-medusa"
-          target="_blank"
-        >
+        <Link href="/store">
           <Button variant="secondary" className="rounded-2xl">
-            <Github />
-            Github Repository
+            <ShoppingBag />
+            <span className="text-ui-fg-subtle">View all products</span>
           </Button>
-        </a>
+        </Link>
       </div>
     </div>
   )
